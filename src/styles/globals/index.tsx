@@ -11,7 +11,7 @@ const sGlobal = css`
     }
 
     body {
-        background-color: #dddddd;
+        background: linear-gradient(0deg, #f6f2ff, #f6f2ff), #fbfaff;
     }
 `
 
