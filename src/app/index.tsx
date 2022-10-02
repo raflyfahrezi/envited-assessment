@@ -1,13 +1,21 @@
 import React from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
-import { HomeModule } from '@/modules'
 import { PageWrapper } from '@/layout'
+import { HomeModule, EventModule, CreateModule } from '@/modules'
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <HomeModule />,
+    },
+    {
+        path: '/create',
+        element: <CreateModule />,
+    },
+    {
+        path: '/event/:id',
+        element: <EventModule />,
     },
 ])
 

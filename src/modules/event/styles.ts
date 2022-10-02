@@ -2,7 +2,7 @@ import { css } from '@emotion/css'
 
 import { color } from '@/styles'
 
-export const sHome = css`
+export const sEvent = css`
     width: 100%;
 
     padding-top: 40px;
@@ -17,43 +17,42 @@ export const sHome = css`
     }
 `
 
-export const sHomeContent = css`
+export const sEventImage = css`
+    /* width: 100%; */
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+`
+
+export const sEventContent = css`
+    width: 100%;
+
     display: flex;
     gap: 40px;
     flex-direction: column;
-    align-items: flex-end;
-
-    text-align: right;
 `
 
-export const sHomeContentText = css`
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-`
-
-export const sHomeContentTitle = css`
+export const sEventContentTitle = css`
     font-size: 64px;
 
-    line-height: 64px;
+    line-height: 100px;
 
     color: ${color.primary['240D57']};
 `
 
-export const sHomeContentTitleSpan = css`
-    color: #8456ec;
+export const sEventContentIconWrapper = css`
+    width: 100%;
+    max-width: 30px;
 `
 
-export const sHomeImage = css`
-    width: 100%;
-    max-width: 400px;
-`
-
-export const sHomeActive = css`
-    width: 100%;
-
+export const sEventContentDetail = css`
     display: flex;
     gap: 30px;
     flex-direction: column;
-    align-items: flex-end;
+`
+
+export const sEventContentDetailItem = css`
+    display: flex;
+    gap: 30px;
+    align-items: center;
 `

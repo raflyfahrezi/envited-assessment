@@ -1,6 +1,8 @@
 import { css } from '@emotion/css'
 
 export const sButton = css`
+    width: 100%;
+
     padding: 16px 20px;
 
     color: white;
